@@ -27,7 +27,6 @@ public class CustomizationProperties {
     @Value("${myCustomConstants.clientSecret}")
     String clientSecret;
 
-
     // 自定义redirectUri
     @Value("${myCustomConstants.redirectUri}")
     String redirectUri;

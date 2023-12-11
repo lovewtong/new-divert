@@ -4,15 +4,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Playlist {
+public class Track {
 
     private String id;
     private String name;
-    private String owner;
-    private List<Track> tracks;
+    private String artist;
+    private String album;
+    private String duration;
 }

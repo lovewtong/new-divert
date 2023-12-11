@@ -1,4 +1,4 @@
 package com.spotifyapiuse.divert.entity;
 
-public class User {
+public class Album {
 }
